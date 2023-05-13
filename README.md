@@ -69,6 +69,25 @@ If you already know about the system, the recommended approach is to align your 
     - Enum
     - Interfaces
     - Design pattern used.
+    - Visualize the user journey (Register -> Login -> Add Profile Details -> Bank Details -> KYC -> Send Money to Reciver -> Check transactions history etc.).
 
+## Entities For Payment Apps
+- ## User
+| USER | 
+| --------------- |
+| Id : Long  |
+| Name : String|
+| Mobile Number : String|
+| Email : String|
+| Password : String|
+| Gender : Gender|
+| Dob : Date|
+| KYC Details : KYC Details|
+| Bank Detials : Bank Details|
+| Payment()|
+| Check History()|
+| Login()|
+| Logout()|
+| SignUp()|
 
 
