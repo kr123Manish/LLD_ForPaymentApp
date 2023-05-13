@@ -84,10 +84,69 @@ If you already know about the system, the recommended approach is to align your 
 | Dob : Date|
 | KYC Details : KYC Details|
 | Bank Detials : Bank Details|
+____________________________
 | Payment()|
 | Check History()|
 | Login()|
 | Logout()|
 | SignUp()|
+
+| GENDER | 
+| --------------- |
+| Male  |
+| Female|
+| Others|
+
+|KYC Details|
+| ---------------|
+|Id : String|
+| Aadhaar : String|
+| PAN : String|
+| IsKycDone : Boolean|
+
+|Bank Details|
+|--------------|
+|Id : String|
+| Account Number : String|
+| Bank Name : String|
+| IFC : String|
+| Account Holder Name : String|
+_______________________________
+|Credit()|
+|Debit()|
+|CheckBalance()|
+
+|Wallet|
+|----------|
+|Id : String|
+| Balance : Float|
+| Credit()|
+_________________
+|Debit()|
+|CheckBalance()|
+
+
+|Payment|
+|---------------|
+|Id : String|
+| Sender : String|
+|Reciver : String|
+|Amount : Float|
+|Time Stramp : DateTime|
+|Status : Status|
+|Transaction : Transaction List|
+________________________________
+|CheckStatus()|
+|CheckTransaction()|
+
+|Status|
+|----------|
+|Success|
+|Failed|
+|In-Process|
+
+
+
+
 
 
