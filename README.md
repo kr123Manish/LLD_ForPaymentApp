@@ -84,7 +84,7 @@ If you already know about the system, the recommended approach is to align your 
 | Dob : Date|
 | KYC Details : KYC Details|
 | Bank Detials : Bank Details|
-____________________________
+|____________________________|
 | Payment()|
 | Check History()|
 | Login()|
@@ -111,7 +111,7 @@ ____________________________
 | Bank Name : String|
 | IFC : String|
 | Account Holder Name : String|
-_______________________________
+|_______________________________|
 |Credit()|
 |Debit()|
 |CheckBalance()|
@@ -121,7 +121,7 @@ _______________________________
 |Id : String|
 | Balance : Float|
 | Credit()|
-_________________
+|_________________|
 |Debit()|
 |CheckBalance()|
 
@@ -135,7 +135,7 @@ _________________
 |Time Stramp : DateTime|
 |Status : Status|
 |Transaction : Transaction List|
-________________________________
+|________________________________|
 |CheckStatus()|
 |CheckTransaction()|
 
